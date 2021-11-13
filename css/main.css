@@ -5,7 +5,8 @@
   text-decoration: none; }
 
 body {
-  font-family: 'Heebo', sans-serif; }
+  font-family: 'Heebo', sans-serif;
+  background-color: firebrick; }
 
 .app {
   width: 80%;
