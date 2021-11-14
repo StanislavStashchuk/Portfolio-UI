@@ -60,3 +60,31 @@ header {
     }
   }
 }
+
+.recent-posts {
+  height: 396px;
+  background-color: #edf7fa;
+  border: 3px solid blue;
+
+  .recent-posts__content {
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 100%;
+
+    h2 {
+      font-weight: 400;
+      font-size: 22px;
+      width: 50%;
+    }
+
+    .recent-posts__content-card {
+      height: 295px;
+      width: 418px;
+      background-color: #FFFFFF;
+      border-radius: 4px;
+      margin: 20px 40px 60px 80px;
+    }
+  }
+}
