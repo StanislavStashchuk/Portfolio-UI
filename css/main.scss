@@ -68,23 +68,40 @@ header {
 
   .recent-posts__content {
     border: 5px solid red;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: stretch;
     height: 100%;
 
-    h2 {
-      font-weight: 400;
-      font-size: 22px;
-      width: 50%;
+    .recent-posts__content-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h2 {
+        font-weight: 400;
+        font-size: 22px;
+        width: 50%;
+      }
+
+      .recent-posts__content-view {
+        margin-left: 400px;
+      }
     }
 
-    .recent-posts__content-card {
-      height: 295px;
-      width: 418px;
-      background-color: #FFFFFF;
-      border-radius: 4px;
-      margin: 20px 40px 60px 80px;
+    .recent-posts__content-bottom {
+
+      display: flex;
+      justify-content: center;
+
+      .recent-posts__content-card {
+        height: 295px;
+        width: 418px;
+        background-color: #FFFFFF;
+        border-radius: 4px;
+        margin: 20px 40px 60px 80px;
+      }
     }
+
+
+
+
   }
 }
