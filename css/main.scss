@@ -16,18 +16,18 @@ body {
 }
 
 header {
+  margin-top: 0;
   height: 595px;
   width: 100%;
   background-color: #FFFFFF;
   .header-top {
-    border: 2px solid red;
     height: 15%;
     .header-top__list {
       display: flex;
       justify-content: flex-end;
       align-items: center;
       list-style: none;
-      margin-top: 27px;
+      padding-top: 15px;
       .header-top__list-item {
         text-decoration: none;
         margin: 21px 21px;
@@ -64,7 +64,6 @@ header {
 .recent-posts {
   height: 396px;
   background-color: #edf7fa;
-  border: 3px solid blue;
 
   .recent-posts__content {
     border: 5px solid red;
@@ -82,7 +81,7 @@ header {
       }
 
       .recent-posts__content-view {
-        margin-left: 400px;
+        margin-left: 350px;
       }
     }
 
@@ -96,11 +95,20 @@ header {
         width: 418px;
         background-color: #FFFFFF;
         border-radius: 4px;
-        margin: 20px 40px 60px 80px;
+        margin: 20px 25px;
+
+        h2 {
+          padding: 10px 20px;
+        }
+
+        .data {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px 55px;
+        }
       }
     }
-
-
 
 
   }
