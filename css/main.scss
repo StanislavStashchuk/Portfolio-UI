@@ -100,7 +100,7 @@ body {
         margin: 11px;
 
         &:hover {
-          background: wheat;
+          background: #F5DEB3FF;
         }
       }
     }
@@ -176,6 +176,21 @@ body {
 
   .featured-works__content {
     border: 2px solid rgb(182, 32, 32);
+
+
+    .featured-works__content-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .featured-works__content-item {
+        height: 250px;
+        width: 250px;
+        background: saddlebrown;
+        margin: 15px 20px;
+      }
+
+    }
   }
 }
 

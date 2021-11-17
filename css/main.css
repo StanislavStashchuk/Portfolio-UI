@@ -76,7 +76,7 @@ body {
       padding: 11px;
       margin: 11px; }
       .header .header-navbar .header-navbar__item:hover {
-        background: wheat; }
+        background: #F5DEB3FF; }
   .header .active {
     transform: scale(1);
     opacity: 1; }
@@ -121,6 +121,15 @@ body {
   background: #ffffff; }
   .featured-works .featured-works__content {
     border: 2px solid #b62020; }
+    .featured-works .featured-works__content .featured-works__content-items {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .featured-works .featured-works__content .featured-works__content-items .featured-works__content-item {
+        height: 250px;
+        width: 250px;
+        background: saddlebrown;
+        margin: 15px 20px; }
 
 .footer {
   height: 182px;
