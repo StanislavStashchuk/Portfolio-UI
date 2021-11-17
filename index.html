@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<!-- -- -- Header -- -- -->
 <header class="header" id="header">
-    <section class="header-top app">
-        <ul class="header-top__list">
-            <li><a class="header-top__list-item" href="#">Works</a></li>
-            <li><a class="header-top__list-item" href="#">Blog</a></li>
-            <li><a class="header-top__list-item" href="#">Contact</a></li>
-        </ul>
-    </section>
-    <section class="header-bottom app">
+    <div class="header-top wrapper">
+        <nav class="header-navbar" id="header-navbar">
+            <a class="header-navbar__item" href="#works">Works</a>
+            <a class="header-navbar__item" href="#blog">Blog</a>
+            <a class="header-navbar__item" href="#contact">Contact</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </div>
+    <div class="header-bottom wrapper">
         <div class="header-bottom__description">
             <h1>Hi, I am John, Creative Technologist</h1>
             <p>Amet minim mollit non deserunt ullamco est sit aliqua
@@ -31,15 +35,15 @@
         <div class="header-bottom__img">
             <img src="img/ellipse 1.png" alt="photo">
         </div>
-
-    </section>
+    </div>
 </header>
 
+<!-- -- -- Recent Posts -- -- -->
 <section class="recent-posts">
-    <div class="recent-posts__content app">
+    <div class="recent-posts__content wrapper">
         <div class="recent-posts__content-top">
-            <h2>Recent posts</h2>
-            <a class="recent-posts__content-view" href="#">View all</a>
+            <h2 class="recent-posts__content-top__name">Recent posts</h2>
+            <a class="recent-posts__content-top__view" href="#">View all</a>
         </div>
         <div class="recent-posts__content-bottom">
             <div class="recent-posts__content-card">
@@ -49,7 +53,7 @@
                     <span>|</span>
                     <div class="data-name">Odin</div>
                 </div>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua
+                <p class="paragraph">Amet minim mollit non deserunt ullamco est sit aliqua
                     dolor do amet sint. Velit officia consequat duis enim velit mollit.
                     Exercitation veniam consequat sunt nostrud amet.
                 </p>
@@ -57,19 +61,44 @@
             <div class="recent-posts__content-card">
                 <h2>Creating pixel perfect icons in Figma</h2>
                 <div class="data">
-                    <div class="data-time">15.33</div>
+                    <div class="data-time">19.03</div>
                     <span>|</span>
-                    <div class="data-name">Odin</div>
+                    <div class="data-name">Thor</div>
                 </div>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua
+                <p class="paragraph">Amet minim mollit non deserunt ullamco est sit aliqua
                     dolor do amet sint. Velit officia consequat duis enim velit mollit.
                     Exercitation veniam consequat sunt nostrud amet.
                 </p>
             </div>
         </div>
     </div>
-
 </section>
 
+<!-- -- -- Featured Works -- -- -->
+<section class="featured-works">
+    <div class="featured-works__content wrapper">
+        <div class="featured-works__content-top">
+            <h2 class="featured-works__content-top__name">Featured works</h2>
+        </div>
+        <div class="featured-works__content-item">
+
+        </div>
+        <div class="featured-works__content-item">
+
+        </div>
+        <div class="featured-works__content-item">
+
+        </div>
+    </div>
+</section>
+
+<!-- -- -- Footer -- -- -->
+<footer class="footer">
+    <div class="footer-app wrapper">
+
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
 }
 
 body {
@@ -10,30 +9,47 @@ body {
   background-color: firebrick;
 }
 
-.app {
+.wrapper {
   width: 80%;
   margin: 0 auto;
 }
 
-header {
+.header {
   margin-top: 0;
   height: 595px;
   width: 100%;
   background-color: #FFFFFF;
   .header-top {
     height: 15%;
-    .header-top__list {
+    border: 1px solid yellow;
+
+    .header-navbar {
       display: flex;
       justify-content: flex-end;
       align-items: center;
       list-style: none;
       padding-top: 15px;
-      .header-top__list-item {
+      .header-navbar__item {
         text-decoration: none;
         margin: 21px 21px;
         font-size: 20px;
         color: black;
         font-weight: 500;
+      }
+    }
+
+    #menu-btn {
+      cursor: pointer;
+      font-size: 20px;
+      padding: 10px 15px;
+      border-radius: 4px;
+      color: red;
+      background-color: black;
+      display: none;
+
+      &:hover {
+        color: white;
+        background-color: #21243D;
       }
     }
   }
@@ -61,8 +77,46 @@ header {
   }
 }
 
+@media (max-width:768px) {
+  .header {
+
+    .header-navbar {
+      position: absolute;
+      top: 115%;
+      right: 20px;
+      background: white;
+      box-shadow: blueviolet;
+      border: greenyellow;
+      border-radius: 3px;
+      width: 240px;
+      transform: scale(0);
+      transform-origin: top right;
+      opacity: 0;
+
+      .header-navbar__item {
+        font-size: 20px;
+        display: block;
+        padding: 11px;
+        margin: 11px;
+
+        &:hover {
+          background: wheat;
+        }
+      }
+    }
+
+    .active {
+      transform: scale(1);
+      opacity: 1;
+    }
+
+    #menu-btn {
+      display: initial;
+    }
+  }
+}
+
 .recent-posts {
-  height: 396px;
   background-color: #edf7fa;
 
   .recent-posts__content {
@@ -74,13 +128,13 @@ header {
       justify-content: space-between;
       align-items: center;
 
-      h2 {
+      .recent-posts__content-top__name {
         font-weight: 400;
         font-size: 22px;
         width: 50%;
       }
 
-      .recent-posts__content-view {
+      .recent-posts__content-top__view {
         margin-left: 350px;
       }
     }
@@ -91,7 +145,6 @@ header {
       justify-content: center;
 
       .recent-posts__content-card {
-        height: 295px;
         width: 418px;
         background-color: #FFFFFF;
         border-radius: 4px;
@@ -107,9 +160,31 @@ header {
           align-items: center;
           padding: 10px 55px;
         }
+
+        .paragraph {
+          padding: 15px;
+        }
       }
     }
+  }
+}
 
+.featured-works {
+  width: 100%;
+  height: 250px;
+  background: #ffffff;
 
+  .featured-works__content {
+    border: 2px solid rgb(182, 32, 32);
+  }
+}
+
+.footer {
+  height: 182px;
+  background: #ffffff;
+
+  .footer-app {
+    height: 100%;
+    border: 2px solid grey ;
   }
 }
