@@ -17,12 +17,10 @@ body {
 
 .header {
   margin-top: 0;
-  height: 595px;
+  height: 65px;
   width: 100%;
   background-color: #FFFFFF;
-  .header-top {
-    height: 15%;
-    border: 1px solid yellow;
+  border: 2px solid yellow;
 
     .header-navbar {
       display: flex;
@@ -55,16 +53,22 @@ body {
     }
   }
 
-  .header-bottom {
+.about {
+  background: #ffffff ;
+  height: 450px;
+
+
+  .about-main {
+    padding-top: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85%;
 
-    .header-bottom__description {
+    .about-main__description {
       color: #21243D;
+      border: 2px solid red ;
 
-      h1 {
+      .about-main__description-title {
         padding: 0;
         margin-top: 15px;
         margin-bottom: 20px;
@@ -77,6 +81,8 @@ body {
     }
   }
 }
+
+
 
 @media (max-width:768px) {
   .header {

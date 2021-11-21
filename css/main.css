@@ -14,47 +14,50 @@ body {
 
 .header {
   margin-top: 0;
-  height: 595px;
+  height: 65px;
   width: 100%;
-  background-color: #FFFFFF; }
-  .header .header-top {
-    height: 15%;
-    border: 1px solid yellow; }
-    .header .header-top .header-navbar {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      list-style: none;
-      padding-top: 15px; }
-      .header .header-top .header-navbar .header-navbar__item {
-        text-decoration: none;
-        margin: 21px 21px;
-        font-size: 20px;
-        color: black;
-        font-weight: 500; }
-    .header .header-top #menu-btn {
-      cursor: pointer;
+  background-color: #FFFFFF;
+  border: 2px solid yellow; }
+  .header .header-navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding-top: 15px; }
+    .header .header-navbar .header-navbar__item {
+      text-decoration: none;
+      margin: 21px 21px;
       font-size: 20px;
-      padding: 10px 15px;
-      border-radius: 4px;
-      color: red;
-      background-color: black;
-      display: none; }
-      .header .header-top #menu-btn:hover {
-        color: white;
-        background-color: #21243D; }
-  .header .header-bottom {
+      color: black;
+      font-weight: 500; }
+  .header #menu-btn {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: red;
+    background-color: black;
+    display: none; }
+    .header #menu-btn:hover {
+      color: white;
+      background-color: #21243D; }
+
+.about {
+  background: #ffffff;
+  height: 450px; }
+  .about .about-main {
+    padding-top: 60px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 85%; }
-    .header .header-bottom .header-bottom__description {
-      color: #21243D; }
-      .header .header-bottom .header-bottom__description h1 {
+    align-items: center; }
+    .about .about-main .about-main__description {
+      color: #21243D;
+      border: 2px solid red; }
+      .about .about-main .about-main__description .about-main__description-title {
         padding: 0;
         margin-top: 15px;
         margin-bottom: 20px; }
-    .header .header-bottom .header-bottom__img {
+    .about .about-main .header-bottom__img {
       margin-left: 115px;
       margin-right: 120px; }
 
