@@ -16,8 +16,7 @@ body {
   margin-top: 0;
   height: 65px;
   width: 100%;
-  background-color: #FFFFFF;
-  border: 2px solid yellow; }
+  background-color: #FFFFFF; }
   .header .header-navbar {
     display: flex;
     justify-content: flex-end;
@@ -43,23 +42,33 @@ body {
       background-color: #21243D; }
 
 .about {
-  background: #ffffff;
-  height: 450px; }
+  background: #ffffff; }
   .about .about-main {
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center; }
     .about .about-main .about-main__description {
-      color: #21243D;
-      border: 2px solid red; }
+      color: #21243D; }
       .about .about-main .about-main__description .about-main__description-title {
-        padding: 0;
+        padding: 15px 15px;
         margin-top: 15px;
         margin-bottom: 20px; }
-    .about .about-main .header-bottom__img {
+      .about .about-main .about-main__description .about-main__description-text {
+        padding: 15px 12px;
+        font-weight: 400;
+        font-size: 16px; }
+    .about .about-main .about-main__img {
       margin-left: 115px;
       margin-right: 120px; }
+    .about .about-main .about-main__button {
+      background: #FF6464;
+      color: #ffffff;
+      height: 47px;
+      width: 208px;
+      margin: 15px 20px;
+      font-size: 20px;
+      font-weight: 500; }
 
 @media (max-width: 768px) {
   .header .header-navbar {
