@@ -7,7 +7,7 @@ body {
   font-family: 'Heebo', sans-serif; }
 
 .wrapper {
-  width: 70%;
+  width: 60%;
   margin: 0 auto; }
 
 .header {
@@ -52,6 +52,8 @@ body {
       color: #21243D;
       padding-bottom: 50px; }
       .about .about-main .about-main__description .about-main__description-title {
+        font-weight: 700;
+        font-size: 44px;
         padding: 15px 15px;
         margin-top: 15px;
         margin-bottom: 20px; }
@@ -74,32 +76,26 @@ body {
       cursor: pointer; }
 
 @media (max-width: 768px) {
-  .header {
-    background-color: brown; }
-    .header .header-navbar {
-      position: absolute;
-      top: 115%;
-      right: 20px;
-      background: white;
-      box-shadow: blueviolet;
-      border: greenyellow;
-      border-radius: 3px;
-      width: 240px;
-      transform: scale(0);
-      transform-origin: top right;
+  .header .header-navbar {
+    position: absolute;
+    /* top: 115%; */
+    right: 20px;
+    width: 100%;
+    /*transform: scale(0);
+    transform-origin: top right;
+    opacity: 0; */ }
+    .header .header-navbar .header-navbar__item {
+      font-size: 20px;
+      display: block;
+      padding: 11px;
+      margin: 11px;
       opacity: 0; }
-      .header .header-navbar .header-navbar__item {
-        font-size: 20px;
-        display: block;
-        padding: 11px;
-        margin: 11px; }
-        .header .header-navbar .header-navbar__item:hover {
-          background: #F5DEB3FF; }
-    .header .active {
-      transform: scale(1);
+      .header .header-navbar .header-navbar__item:hover {
+        background: #F5DEB3FF; }
+    .header .header-navbar.active .header-navbar__item {
       opacity: 1; }
-    .header #menu-btn {
-      display: initial; } }
+  .header #menu-btn {
+    display: initial; } }
 .recent-posts {
   background-color: #edf7fa; }
   .recent-posts .recent-posts__content {
@@ -193,8 +189,6 @@ body {
             color: #ffffff;
             font-size: 18px;
             font-weight: 900; }
-        .featured-works .featured-works__content .featured-works__content-items .featured-works__content-item .description .paragraph {
-          border: 2px solid violet; }
 
 .footer {
   background: #ffffff; }

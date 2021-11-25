@@ -9,7 +9,7 @@ body {
 }
 
 .wrapper {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -68,6 +68,8 @@ body {
       padding-bottom: 50px;
 
       .about-main__description-title {
+        font-weight: 700;
+        font-size: 44px;
         padding: 15px 15px;
         margin-top: 15px;
         margin-bottom: 20px;
@@ -101,36 +103,30 @@ body {
 
 @media (max-width:768px) {
   .header {
-    background-color: brown;
 
     .header-navbar {
       position: absolute;
-      top: 115%;
+     /* top: 115%; */
       right: 20px;
-      background: white;
-      box-shadow: blueviolet;
-      border: greenyellow;
-      border-radius: 3px;
-      width: 240px;
-      transform: scale(0);
+      width: 100%;
+      /*transform: scale(0);
       transform-origin: top right;
-      opacity: 0;
+      opacity: 0; */
 
       .header-navbar__item {
         font-size: 20px;
         display: block;
         padding: 11px;
         margin: 11px;
+        opacity: 0;
 
         &:hover {
           background: #F5DEB3FF;
         }
       }
-    }
-
-    .active {
-      transform: scale(1);
-      opacity: 1;
+      &.active .header-navbar__item {
+        opacity: 1;
+      }
     }
 
     #menu-btn {
@@ -279,7 +275,6 @@ body {
           }
 
           .paragraph {
-            border: 2px solid violet;
           }
         }
       }

@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio UI</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
@@ -27,16 +28,16 @@
 <section class="about ">
     <div class="about-main wrapper">
         <div class="about-main__description">
-            <h1 class="about-main__description-title">Hi, I am John, Creative Technologist</h1>
-            <p class="about-main__description-text">Amet minim mollit non deserunt ullamco est sit aliqua
+            <h1 class="title">Hi, I am John, Creative Technologist</h1>
+            <p class="paragraph">Amet minim mollit non deserunt ullamco est sit aliqua
                 dolor do amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat su nt nostrud amet.
             </p>
-            <button type="button" class="about-main__button">Download Resume</button>
+            <button type="button" class="button">Download Resume</button>
         </div>
-        <div class="about-main__img">
-            <img src="img/ellipse 1.png" alt="photo">
-        </div>
+
+        <img src="img/ellipse 1.png" alt="photo">
+
     </div>
 </section>
 
@@ -77,18 +78,16 @@
 
 <section class="featured-works">
     <div class="featured-works__content wrapper">
-        <div class="featured-works__content-top">
-            <h2 class="featured-works__content-top__name">Featured works</h2>
-        </div>
+        <h2 class="featured-works__content-tittle">Featured works</h2>
 
         <div class="featured-works__content-items">
-            <div class="featured-works__content-item">
-                <div class="img">
-                    <img src="img/rectangle 30.png" alt="photo">
-                </div>
-                <div class="description">
-                    <h3 class="description-name">Designing Dashboards</h3>
-                    <div class="yearNtag">
+            <div class="item">
+
+                <img src="img/rectangle 30.png" alt="photo">
+
+                <div class="item__description">
+                    <h3 class="item__description-name">Designing Dashboards</h3>
+                    <div class="item__yearNtag">
                         <span class="year">2020</span>
                         <span class="tag">Dashboard</span>
                     </div>
@@ -98,14 +97,13 @@
                         nostrud amet.
                     </p>
                 </div>
-
             </div>
-            <div class="featured-works__content-item">
-                <div class="img">
-                    <img src="img/rectangle 32.png" alt="photo">
-                </div>
-                <div class="description">
-                    <h3 class="description-name">Vibrant Portraits of 2020</h3>
+            <div class="item">
+
+                <img src="img/rectangle 32.png" alt="photo">
+
+                <div class="item__description">
+                    <h3 class="item__description-name">Vibrant Portraits of 2020</h3>
                     <div class="yearNtag">
                         <span class="year">2018</span>
                         <span class="tag">Illustration</span>
@@ -117,12 +115,12 @@
                     </p>
                 </div>
             </div>
-            <div class="featured-works__content-item">
-                <div class="img">
-                    <img src="img/rectangle 34.png" alt="photo">
-                </div>
-                <div class="description">
-                    <h3 class="description-name">36 Days of Malayalam type</h3>
+            <div class="item">
+
+                <img src="img/rectangle 34.png" alt="photo">
+
+                <div class="item__description">
+                    <h3 class="item__description-name">36 Days of Malayalam type</h3>
                     <div class="yearNtag">
                         <span class="year">2018</span>
                         <span class="tag">Typography</span>
@@ -139,13 +137,13 @@
 </section>
 
 <footer class="footer">
-    <div class="footer-app wrapper">
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-github"></i>
-    </div>
-    <p class="footer-copyright">Copyright ©2020 All rights reserved </p>
+    <ul class=" footer__icons wrapper">
+        <li><i class="fab fa-facebook-f"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-github"></i></li>
+    </ul>
+    <div class="footer__copyright">Copyright ©2020 All rights reserved</div>
 </footer>
 
 <script src="js/script.js"></script>
