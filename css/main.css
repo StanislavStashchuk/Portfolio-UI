@@ -112,13 +112,14 @@ body {
       .recent-posts .recent-posts__content .recent-posts__content-top .recent-posts__content-top__name {
         font-weight: 400;
         font-size: 22px;
-        width: 50%; }
+        width: 50%;
+        margin-left: 12px; }
       .recent-posts .recent-posts__content .recent-posts__content-top .recent-posts__content-top__view {
-        left: 0;
         padding: 5px 7px;
         text-decoration: none;
         color: #00a8cc;
-        font-size: 16px; }
+        font-size: 16px;
+        margin-right: 20px; }
     .recent-posts .recent-posts__content .recent-posts__content-bottom {
       display: flex;
       justify-content: space-between; }
@@ -126,9 +127,12 @@ body {
         width: 518px;
         background-color: #FFFFFF;
         border-radius: 4px;
-        margin: 20px 25px; }
+        margin: 12px 25px; }
         .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .title {
-          padding: 10px 20px; }
+          padding: 10px 20px;
+          font-weight: 700;
+          font-size: 26px;
+          color: #21243d; }
         .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .data {
           display: flex;
           justify-content: left;
