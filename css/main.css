@@ -124,12 +124,12 @@ body {
       display: flex;
       justify-content: space-between; }
       .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card {
-        width: 518px;
+        width: 520px;
         background-color: #FFFFFF;
         border-radius: 4px;
-        margin: 12px 25px; }
+        margin: 10px 10px; }
         .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .title {
-          padding: 10px 20px;
+          padding: 10px 33px;
           font-weight: 700;
           font-size: 26px;
           color: #21243d; }
@@ -137,18 +137,18 @@ body {
           display: flex;
           justify-content: left;
           align-items: center;
-          padding: 10px 15px;
+          padding: 10px 33px;
           color: #21243d;
           font-size: 18px;
           font-weight: 400; }
           .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .data .data-time {
-            padding: 4px 6px; }
+            padding: 5px 14px 5px 1px; }
           .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .data span {
-            padding: 4px 6px; }
+            padding: 5px 14px; }
           .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .data .data-name {
-            padding: 4px 6px; }
+            padding: 5px 10px; }
         .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .paragraph {
-          padding: 15px; }
+          padding: 33px; }
 
 .featured-works {
   width: 100%;
@@ -159,14 +159,11 @@ body {
     font-weight: 400;
     font-size: 24px;
     color: #21243d;
-    padding: 5px 7px;
-    height: 60px;
-    display: flex;
-    align-items: center;
+    padding: 25px 25px;
     justify-content: left; }
   .featured-works .featured-works__content .featured-works__content-items {
     padding-bottom: 60px; }
-    .featured-works .featured-works__content .featured-works__content-items .featured-works__content-item {
+    .featured-works .featured-works__content .featured-works__content-items .item {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -176,18 +173,18 @@ body {
       border-bottom: 1px solid darkgrey;
       padding-bottom: 25px;
       padding-top: 30px; }
-      .featured-works .featured-works__content .featured-works__content-items .featured-works__content-item .img {
+      .featured-works .featured-works__content .featured-works__content-items .item .img {
         align-items: center; }
-      .featured-works .featured-works__content .featured-works__content-items .featured-works__content-item .description {
+      .featured-works .featured-works__content .featured-works__content-items .item .description {
         padding: 20px 15px;
         font-family: 'Heebo', sans-serif; }
-        .featured-works .featured-works__content .featured-works__content-items .featured-works__content-item .description .description-name {
+        .featured-works .featured-works__content .featured-works__content-items .item .description .description-name {
           font-size: 30px;
           font-weight: bold;
           color: #21243d; }
-        .featured-works .featured-works__content .featured-works__content-items .featured-works__content-item .description .yearNtag {
+        .featured-works .featured-works__content .featured-works__content-items .item .description .yearNtag {
           padding-bottom: 15px; }
-          .featured-works .featured-works__content .featured-works__content-items .featured-works__content-item .description .yearNtag .year {
+          .featured-works .featured-works__content .featured-works__content-items .item .description .yearNtag .year {
             background: #142850;
             height: 25px;
             width: 62px;
