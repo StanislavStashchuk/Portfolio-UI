@@ -122,14 +122,15 @@ body {
         margin-right: 20px; }
     .recent-posts .recent-posts__content .recent-posts__content-bottom {
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      width: 98%;
+      margin: 0 auto; }
       .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card {
-        width: 518px;
         background-color: #FFFFFF;
         border-radius: 4px;
-        margin: 10px 20px; }
+        margin: 10px 10px; }
         .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .title {
-          padding: 10px 33px;
+          padding: 13px 20px;
           font-weight: 700;
           font-size: 26px;
           color: #21243d; }
@@ -137,18 +138,18 @@ body {
           display: flex;
           justify-content: left;
           align-items: center;
-          padding: 10px 33px;
+          padding: 13px 20px;
           color: #21243d;
           font-size: 18px;
           font-weight: 400; }
           .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .data .data-time {
-            padding: 5px 14px 5px 1px; }
+            padding: 0 14px 5px 0; }
           .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .data span {
             padding: 5px 14px; }
           .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .data .data-name {
             padding: 5px 10px; }
         .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .paragraph {
-          padding: 10px 33px 15px 33px; }
+          padding: 0 20px 20px 20px; }
 
 .featured-works {
   width: 100%;
