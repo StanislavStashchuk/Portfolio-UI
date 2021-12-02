@@ -173,10 +173,11 @@ body {
       justify-content: space-between;
 
       .recent-posts__content-card {
-        width: 520px;
+        width: 518px;
         background-color: #FFFFFF;
         border-radius: 4px;
-        margin: 10px 10px;
+        margin: 10px 20px;
+
 
         .title {
           padding: 10px 33px;
@@ -209,7 +210,7 @@ body {
         }
 
         .paragraph {
-          padding: 33px;
+          padding: 10px 33px 15px 33px ;
         }
       }
     }

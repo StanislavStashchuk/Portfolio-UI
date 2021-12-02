@@ -124,10 +124,10 @@ body {
       display: flex;
       justify-content: space-between; }
       .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card {
-        width: 520px;
+        width: 518px;
         background-color: #FFFFFF;
         border-radius: 4px;
-        margin: 10px 10px; }
+        margin: 10px 20px; }
         .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .title {
           padding: 10px 33px;
           font-weight: 700;
@@ -148,7 +148,7 @@ body {
           .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .data .data-name {
             padding: 5px 10px; }
         .recent-posts .recent-posts__content .recent-posts__content-bottom .recent-posts__content-card .paragraph {
-          padding: 33px; }
+          padding: 10px 33px 15px 33px; }
 
 .featured-works {
   width: 100%;
